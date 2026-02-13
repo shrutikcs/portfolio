@@ -1,0 +1,42 @@
+[
+  {
+    "id": "email",
+    "name": "Email",
+    "url": "mailto:shrutik.mesh@gmail.com",
+    "icon": "FiMail",
+    "order": 0,
+    "published": true
+  },
+  {
+    "id": "linkedin",
+    "name": "LinkedIn",
+    "url": "https://www.linkedin.com/in/shrutikcs/",
+    "icon": "FaLinkedin",
+    "order": 1,
+    "published": true
+  },
+  {
+    "id": "github",
+    "name": "GitHub",
+    "url": "https://github.com/shrutikcs",
+    "icon": "FaGithub",
+    "order": 2,
+    "published": true
+  },
+  {
+    "id": "twitter",
+    "name": "X",
+    "url": "https://x.com/shrutikcs",
+    "icon": "FaXTwitter",
+    "order": 3,
+    "published": true
+  },
+  {
+    "id": "leetcode",
+    "name": "LeetCode",
+    "url": "https://leetcode.com/u/shrutikcs/",
+    "icon": "SiLeetcode",
+    "order": 4,
+    "published": true
+  }
+]

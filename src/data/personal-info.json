@@ -1,0 +1,23 @@
+{
+  "hero_title": "Hi, I'm Shrutik",
+  "hero_description": "Software developer building [products](/projects) that are scalable, and built with modern tooling.",
+  "about_me_paragraph_1": "I'm a software developer with a strong foundation in [Next.js](https://nextjs.org), [React](https://react.dev/), [TypeScript](https://www.typescriptlang.org/), and backend services like [Convex](https://www.convex.dev/). I graduated from [NIT Karnataka](https://www.nitk.ac.in/) and enjoy shipping end-to-end features.",
+  "about_me_paragraph_2": "I'm passionate about open source, real-time systems, and building with modern tools like [Bun](https://bun.sh/) and [Elysia.js](https://elysiajs.com/). When I'm not coding, you'll find me posting on X or optimising daily workflows.",
+  "contact_description": "Want to build something together? Hit me up on [Email](mailto:shrutik.mesh@gmail.com) or [X](https://x.com/shrutikcs). I am quite active there.",
+  "signature_name": "Shrutik",
+  "meta_title": "Shrutik Meshram",
+  "meta_description": "Software developer specializing in real-time systems, open source, and modern web development with Next.js, React, TypeScript, and Bun.",
+  "job_title": "Software Developer",
+  "company": "Open to Work",
+  "skills": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Node.js",
+    "Bun",
+    "Elysia.js",
+    "Convex",
+    "MongoDB",
+    "Tailwindcss"
+  ]
+}

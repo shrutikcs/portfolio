@@ -1,0 +1,69 @@
+[
+  {
+    "id": "open-source-2026",
+    "company": "Open Source: Convex",
+    "position": "Contributor",
+    "period": "Jan 2026 - Present",
+    "location": "Remote",
+    "workType": "remote",
+    "description": [
+      "Fixed a production bug in Convex's Next.js auth that hung indefinitely in Bun runtime, diagnosing root causes: read-only Headers + Content-Length header forwarding issues",
+      "Submitted PR #253 with selective header fix, passed AI review & automated checks"
+    ],
+    "current": true,
+    "order": 0,
+    "published": true,
+    "link": "https://github.com/get-convex/better-auth/pull/253"
+  },
+  {
+    "id": "engineer-nitk-2024",
+    "company": "ENGINEER, NITK",
+    "position": "Core Organizer",
+    "period": "Jun 2024 - Oct 2024",
+    "location": "Surathkal, Karnataka",
+    "workType": "onsite",
+    "description": [
+      "Handled the entire tech fest with a crew of 10 people, scheduling 30+ events across 3 days. Hackathons, gaming tournaments, alumni talks, and PRO shows",
+      "Ran the 24-hour Wells Fargo hackathon with the team, handling live issues for a high-stakes event",
+      "Managed artist coordination end-to-end, from inviting Vivek Samtani to airport pickup and timing the stage",
+      "Led gaming tournaments including skill-based matchmaking for Valorant, handling logistics such as consoles and peripherals",
+      "Oversaw event merch distribution, sales, and handled real-time crises across a fest attended by 5,000+ participants"
+    ],
+    "current": false,
+    "order": 1,
+    "published": true,
+    "link": "https://engineer.nitk.ac.in/"
+  },
+  {
+    "id": "ecell-nitk-2021",
+    "company": "E-Cell NITK",
+    "position": "Executive Member",
+    "period": "Dec 2021 - Jun 2024",
+    "location": "Surathkal, Karnataka",
+    "workType": "onsite",
+    "description": [
+      "Handled ops, content, and event management for the campus entrepreneurship cell",
+      "Organized large-scale events like a trading competition with 700+ participants and helped run the flagship fest E-Summit",
+      "Ran Instagram content - created, edited, and directed reels interviewing students about personal finance"
+    ],
+    "current": false,
+    "order": 2,
+    "published": true,
+    "link": "https://ecell.nitk.ac.in/"
+  },
+  {
+    "id": "lsd-nitk-2022",
+    "company": "Literary, Stage and Debating Society NITK",
+    "position": "Executive Member",
+    "period": "Jul 2022 - Jun 2024",
+    "location": "Surathkal, Karnataka",
+    "workType": "onsite",
+    "description": [
+      "Contributed to video editing and film production for campus literary and stage events"
+    ],
+    "current": false,
+    "order": 3,
+    "published": true,
+    "link": null
+  }
+]

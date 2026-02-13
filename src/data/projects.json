@@ -1,0 +1,50 @@
+[
+  {
+    "id": "blog-platform-2026",
+    "title": "Blogstify",
+    "period": "Jan 2026 - Present",
+    "description": "Blogstify is a modern, serverless blog platform with real-time engagement features. Built with Convex and Next.js, it delivers instant interactions without the complexity of managing traditional infrastructure.",
+    "link": "https://blogstify.vercel.app/",
+    "type": "Website",
+    "technologies": ["next", "typescript", "tailwind"],
+    "featured": true,
+    "order": 0,
+    "published": true
+  },
+  {
+    "id": "realtime-chat-2025",
+    "title": "Vanish",
+    "period": "Oct 2025 - Jan 2026",
+    "description": "A private, self-destructing chat room. Messages disappear. No logs. No history.",
+    "link": "https://vansih.vercel.app/",
+    "type": "Website",
+    "technologies": ["next", "typescript", "tailwind", "redis"],
+    "featured": true,
+    "order": 1,
+    "published": true
+  },
+  {
+    "id": "resume-analyzer-2025",
+    "title": "Resume.gg",
+    "period": "Nov 2025 - Dec 2025",
+    "description": "AI-powered resume feedback system using Puter.js. Features a multi-step upload flow with Zustand state management and serverless PDF processing.",
+    "link": "https://resume-gg.vercel.app/",
+    "type": "AI",
+    "technologies": ["react", "typescript", "tailwind", "ai"],
+    "featured": true,
+    "order": 2,
+    "published": true
+  },
+  {
+    "id": "real-time-tracker-2025",
+    "title": "LocatoR",
+    "period": "Aug 2025 - Sept 2025",
+    "description": "A simple real-time location tracking application built with Node.js, Express, Socket.io, and Leaflet.js.",
+    "link": "https://github.com/shrutikcs/real-time-tracker",
+    "type": "Website",
+    "technologies": ["node", "javascript"],
+    "featured": true,
+    "order": 3,
+    "published": true
+  }
+]
