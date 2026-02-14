@@ -38,5 +38,13 @@
     "icon": "SiLeetcode",
     "order": 4,
     "published": true
+  },
+  {
+    "id": "resume",
+    "name": "Resume",
+    "url": "/resume.pdf",
+    "icon": "FiFileText",
+    "order": 5,
+    "published": true
   }
 ]

@@ -16,7 +16,7 @@ import {
 import { cn } from "@/lib/utils";
 
 const NAV_ITEMS = [
-  { href: "/", label: "@shrutikcs", icon: null },
+  { href: "/", label: "@shrutik", icon: null },
   { href: "/experience", label: "experience", icon: FiBriefcase },
   { href: "/projects", label: "projects", icon: FiCode },
   { href: "/education", label: "education", icon: FiBookOpen },
@@ -186,7 +186,7 @@ function Navigation() {
                 className="px-3 py-1.5 text-sm font-medium hover:text-foreground transition-colors flex items-center gap-2"
               >
                 <span className="text-muted-foreground font-bold">
-                  shrutikcs
+                  shrutik
                 </span>
                 <span className="text-muted-foreground/50">/</span>
                 <span className="text-foreground capitalize">
