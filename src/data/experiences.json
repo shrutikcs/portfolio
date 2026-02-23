@@ -8,7 +8,7 @@
     "workType": "remote",
     "description": [
       "Fixed a production bug in Convex's Next.js auth that hung indefinitely in Bun runtime, diagnosing root causes: read-only Headers + Content-Length header forwarding issues",
-      "Submitted PR #253 with selective header fix, passed AI review & automated checks"
+      "Submitted merged PR #253 with selective header fix, passed AI review & automated checks"
     ],
     "current": true,
     "order": 0,
