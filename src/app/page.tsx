@@ -12,14 +12,14 @@ import personalInfo from "@/data/personal-info.json";
 import socialLinks from "@/data/social-links.json";
 
 const IconMap: { [key: string]: React.ComponentType<{ className?: string }> } =
-{
-  FiMail: FiMail,
-  FaLinkedin,
-  FaGithub,
-  FaXTwitter,
-  SiLeetcode,
-  FiFileText,
-};
+  {
+    FiMail: FiMail,
+    FaLinkedin,
+    FaGithub,
+    FaXTwitter,
+    SiLeetcode,
+    FiFileText,
+  };
 
 function parseTextWithLinks(text: string): React.ReactNode[] {
   const parts: React.ReactNode[] = [];

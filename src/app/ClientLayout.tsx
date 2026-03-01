@@ -185,9 +185,7 @@ function Navigation() {
                 href="/"
                 className="px-3 py-1.5 text-sm font-medium hover:text-foreground transition-colors flex items-center gap-2"
               >
-                <span className="text-muted-foreground font-bold">
-                  shrutik
-                </span>
+                <span className="text-muted-foreground font-bold">shrutik</span>
                 <span className="text-muted-foreground/50">/</span>
                 <span className="text-foreground capitalize">
                   {currentPageLabel}
