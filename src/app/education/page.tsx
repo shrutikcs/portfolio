@@ -4,10 +4,10 @@ import { PageTransition } from "@/components/ui/page-transition";
 import education from "@/data/education.json";
 
 export const metadata: Metadata = {
-  title: "Education | Shrutik Meshram",
+  title: "Education",
   description: "My academic background and achievements",
   openGraph: {
-    title: "Education | Shrutik Meshram",
+    title: "Education",
     description: "My academic background and achievements",
   },
 };

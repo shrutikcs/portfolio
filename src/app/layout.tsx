@@ -33,7 +33,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Shrutik Meshram - Software Developer",
+    default: "Shrutik Meshram | Software Developer",
     template: "%s | Shrutik Meshram",
   },
   description:
@@ -41,14 +41,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    title: "Shrutik Meshram - Software Developer",
+    title: "Shrutik Meshram | Software Developer",
     description:
       "Software developer building real-time, scalable products with Next.js, React, TypeScript, and Bun.",
     siteName: "Shrutik Meshram",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Shrutik Meshram - Software Developer",
+    title: "Shrutik Meshram | Software Developer",
     description:
       "Software developer building real-time, scalable products with modern web tooling.",
   },

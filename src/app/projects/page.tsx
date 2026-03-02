@@ -4,10 +4,10 @@ import { ProjectCard } from "@/components/ui/project-card";
 import projects from "@/data/projects.json";
 
 export const metadata: Metadata = {
-  title: "Projects | Shrutik Meshram",
+  title: "Projects",
   description: "Things I've built and shipped",
   openGraph: {
-    title: "Projects | Shrutik Meshram",
+    title: "Projects",
     description: "Things I've built and shipped",
   },
 };

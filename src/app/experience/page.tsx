@@ -34,10 +34,10 @@ const getWorkTypeBadge = (workType: string) => {
 };
 
 export const metadata: Metadata = {
-  title: "Experience | Shrutik Meshram",
+  title: "Experience",
   description: "My journey - open source, and leadership",
   openGraph: {
-    title: "Experience | Shrutik Meshram",
+    title: "Experience",
     description: "My journey - open source, and leadership",
   },
 };
