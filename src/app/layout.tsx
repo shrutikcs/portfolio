@@ -32,6 +32,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://shrutik.space'),
   title: {
     default: "Shrutik Meshram | Software Developer",
     template: "%s | Shrutik Meshram",
