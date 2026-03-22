@@ -32,16 +32,20 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://shrutik.space'),
+  metadataBase: new URL("https://shrutik.space"),
   title: {
     default: "Shrutik Meshram | Software Developer",
     template: "%s | Shrutik Meshram",
   },
   description:
     "Software developer specializing in real-time systems, open source, and modern web development with Next.js, React, TypeScript, and Bun.",
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
+    url: "https://shrutik.space",
     title: "Shrutik Meshram | Software Developer",
     description:
       "Software developer building real-time, scalable products with Next.js, React, TypeScript, and Bun.",
