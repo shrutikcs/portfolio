@@ -73,6 +73,31 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased`}
       >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              name: "Shrutik Meshram",
+              url: "https://shrutik.space",
+              jobTitle: "Software Developer",
+              description: "Software developer specializing in Next.js, TypeScript, and Bun. NIT Karnataka graduate.",
+              alumniOf: {
+                "@type": "CollegeOrUniversity",
+                name: "National Institute of Technology Karnataka"
+              },
+              sameAs: [
+                "https://www.linkedin.com/in/shrutikcs/",
+                "https://github.com/shrutikcs",
+                "https://x.com/shrutikcs",
+                "https://www.instagram.com/shrutikcs/",
+                "https://www.youtube.com/@shrutikcs",
+                "https://leetcode.com/u/shrutikcs/"
+              ],
+            }),
+          }}
+        />
         <ClientLayout>{children}</ClientLayout>
         <Analytics />
       </body>
