@@ -11,6 +11,8 @@ import { PageTransition } from "@/components/ui/page-transition";
 import personalInfo from "@/data/personal-info.json";
 import socialLinks from "@/data/social-links.json";
 
+
+
 const IconMap: { [key: string]: React.ComponentType<{ className?: string }> } =
   {
     FiMail: FiMail,
@@ -73,7 +75,7 @@ export default function Home() {
         <section className="space-y-6 mb-16">
           <div className="flex items-start justify-between gap-6">
             <div className="flex-1">
-              <h1 className="text-4xl md:text-5xl font-bold tracking-tight">
+              <h1 className={`text-4xl md:text-5xl font-bold tracking-tight`}>
                 {personalInfo.hero_title}
               </h1>
               <p className="text-lg text-muted-foreground leading-relaxed mt-4">
