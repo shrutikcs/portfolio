@@ -20,66 +20,162 @@
 
 /* Animations */
 @keyframes signatureCursorMove {
-    0% { right: 100%; }
-    100% { right: -5%; opacity: 0; }
+    0% {
+        right: 100%;
+    }
+
+    100% {
+        right: -5%;
+        opacity: 0;
+    }
 }
 
 @keyframes musicBar1 {
-    0%, 100% { height: 0.75rem; }
-    50% { height: 1.25rem; }
+
+    0%,
+    100% {
+        height: 0.75rem;
+    }
+
+    50% {
+        height: 1.25rem;
+    }
 }
 
 @keyframes musicBar2 {
-    0%, 100% { height: 1rem; }
-    50% { height: 0.5rem; }
+
+    0%,
+    100% {
+        height: 1rem;
+    }
+
+    50% {
+        height: 0.5rem;
+    }
 }
 
 @keyframes musicBar3 {
-    0%, 100% { height: 0.5rem; }
-    50% { height: 1.5rem; }
+
+    0%,
+    100% {
+        height: 0.5rem;
+    }
+
+    50% {
+        height: 1.5rem;
+    }
 }
 
 @keyframes musicBar4 {
-    0%, 100% { height: 1.25rem; }
-    50% { height: 0.75rem; }
+
+    0%,
+    100% {
+        height: 1.25rem;
+    }
+
+    50% {
+        height: 0.75rem;
+    }
 }
 
-.animate-music-bar-1 { animation: musicBar1 1s ease-in-out infinite; }
-.animate-music-bar-2 { animation: musicBar2 1.2s ease-in-out infinite; }
-.animate-music-bar-3 { animation: musicBar3 0.8s ease-in-out infinite; }
-.animate-music-bar-4 { animation: musicBar4 1.5s ease-in-out infinite; }
+.animate-music-bar-1 {
+    animation: musicBar1 1s ease-in-out infinite;
+}
+
+.animate-music-bar-2 {
+    animation: musicBar2 1.2s ease-in-out infinite;
+}
+
+.animate-music-bar-3 {
+    animation: musicBar3 0.8s ease-in-out infinite;
+}
+
+.animate-music-bar-4 {
+    animation: musicBar4 1.5s ease-in-out infinite;
+}
 
 @keyframes fadeInUp {
-    from { opacity: 0; transform: translateY(12px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 @keyframes float {
-    0%, 100% { transform: translateY(0px); }
-    50% { transform: translateY(-8px); }
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
 }
 
 @keyframes pulse-subtle {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.5; }
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
 }
 
 @keyframes spin-slow {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
 
-.animate-fade-in-up { animation: fadeInUp 0.4s ease-out forwards; }
-.animate-float { animation: float 3s ease-in-out infinite; }
-.animate-pulse-subtle { animation: pulse-subtle 2s ease-in-out infinite; }
-.animate-spin-slow { animation: spin-slow 3s linear infinite; }
+.animate-fade-in-up {
+    animation: fadeInUp 0.4s ease-out forwards;
+}
+
+.animate-float {
+    animation: float 3s ease-in-out infinite;
+}
+
+.animate-pulse-subtle {
+    animation: pulse-subtle 2s ease-in-out infinite;
+}
+
+.animate-spin-slow {
+    animation: spin-slow 3s linear infinite;
+}
 
 /* Staggered animations */
-.stagger-1 { animation-delay: 0.05s; }
-.stagger-2 { animation-delay: 0.1s; }
-.stagger-3 { animation-delay: 0.15s; }
-.stagger-4 { animation-delay: 0.2s; }
-.stagger-5 { animation-delay: 0.25s; }
+.stagger-1 {
+    animation-delay: 0.05s;
+}
+
+.stagger-2 {
+    animation-delay: 0.1s;
+}
+
+.stagger-3 {
+    animation-delay: 0.15s;
+}
+
+.stagger-4 {
+    animation-delay: 0.2s;
+}
+
+.stagger-5 {
+    animation-delay: 0.25s;
+}
 
 /* Base styles */
 html {
@@ -191,7 +287,12 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     letter-spacing: -0.025em;
     font-weight: 600;
 }
@@ -228,4 +329,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .link-hover:hover::after {
     width: 100%;
+}
+
+.grain-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/grain.gif');
+    opacity: 0.02;
+    mix-blend-mode: overlay;
+    pointer-events: none;
+    z-index: 9999;
 }

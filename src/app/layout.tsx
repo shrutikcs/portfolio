@@ -66,6 +66,7 @@ export default function RootLayout({
       <body
         className={`${bricolage.className} font-sans antialiased`}
       >
+        <div className="grain-overlay"></div>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
